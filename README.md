@@ -82,7 +82,9 @@ Before you begin, ensure you have the following installed:
 The entire portfolio is driven by the data in the `config/` directory.
 
 ### Personal Data
-Edit `config/landing.ts` to update your professional information:
+Edit `config/landing.ts` to update your professional information.
+
+**Note:** To update your CV, replace the file at `public/cv.pdf`.
 
 ```typescript
 // config/landing.ts

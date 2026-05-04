@@ -9,6 +9,7 @@ import { ThemeToggle } from "@/components/theme-toggle";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/config/landing";
+import { ROUTES } from "@/core/routes";
 
 type Props = {
   item: Item;
@@ -78,7 +79,17 @@ export function Header({ item }: Props) {
                 {social.name}
               </Button>
             ))}
-            <Button size="sm" className="gap-2">
+            <Button
+              size="sm"
+              className="gap-2"
+              nativeButton={false}
+              render={
+                <Link
+                  href={ROUTES.cv.path}
+                  download="CV_Nicolas_Del_Rosario.pdf"
+                />
+              }
+            >
               <Download className="h-4 w-4" />
               Download PDF
             </Button>
