@@ -4,7 +4,7 @@ import { LinkedinIcon } from "@/components/icons/linkedin-icon";
 export const RESUME_DATA = {
   personalInfo: {
     name: "Nicolas Del Rosario",
-    title: "Junior Full Stack Developer",
+    title: "Full Stack Developer",
     summary:
       "Desarrollador apasionado con más de 1 año de experiencia construyendo aplicaciones web escalables. Especializado en React, Node.js y arquitectura en la nube.",
     location: "Lima, PE",
@@ -86,13 +86,13 @@ export const RESUME_DATA = {
         "Drizzle ORM",
       ],
       desc: "Plataforma SaaS multiempresa para control de inventario, almacenes, órdenes de compra, movimientos y stock en tiempo real.",
-      url: "https://the-koro.nicolasdelrosario.com/",
+      url: "https://inventra.nicolasdelrosario.com",
     },
     {
       name: "The Koro — E-commerce",
       tech: ["Next.js", "Tailwind", "Shadcn UI", "NestJS", "PostgreSQL"],
       desc: "Plataforma e-commerce moderna con gestión de inventario, pagos y operaciones administrativas escalables.",
-      url: "https://the-koro.nicolasdelrosario.com/",
+      url: "https://the-koro.nicolasdelrosario.com",
     },
   ],
   skills: [
